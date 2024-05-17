@@ -21,8 +21,8 @@ export const GAMES = [
   },
   {
     image: "/game-covers/cyberpunk2077ue.jpg",
-    title: "Cyberpunk 2077",
-    genres: ["Cyberpunk", "RPG", "FPS"],
+    title: "Cyberpunk 2077: Ultimate Edition",
+    genres: ["Cyberpunk", "RPG", "FPS", "Braindance"],
     price: 2718,
     video: "https://www.youtube.com/embed/8X2kIfS6fb8",
     id: 3,

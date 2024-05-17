@@ -18,7 +18,7 @@
     font-weight: bold;
 }
 
-.game-item__genre {
+.game-item__genres {
     margin-top: 10px;
     display: flex;
     flex-wrap: wrap;
@@ -34,6 +34,7 @@
 }
 
 .game-item__buy {
-    position: relative;
-    right: 0;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
 }
