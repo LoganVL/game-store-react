@@ -1,7 +1,7 @@
 .game-item {
     color:white;
-    width: 320px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     background-color: rgb(36,37,41);
     border-radius: 15px;
     cursor: pointer;
