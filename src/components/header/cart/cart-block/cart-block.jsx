@@ -1,8 +1,9 @@
 import "./cart-block.css";
-import { CartMenu } from "../../cart-menu";
+import { CartMenu } from "../cart-menu";
 import { useSelector } from "react-redux";
+import { ItemsInCart } from "../items-in-cart";
 import { MdOutlineShoppingCart } from "react-icons/md";
-import { calcTotalPrice } from "../utils";
+import { calcTotalPrice } from "../../utils";
 import { useState } from "react";
 
 export function CartBlock() {
@@ -11,6 +12,7 @@ export function CartBlock() {
   const totalPrice = calcTotalPrice(items);
   return (
     <div className="cart-block">
+      <ItemsInCart quantity={items.length} />
       <MdOutlineShoppingCart
         size={25}
         className="cart-block__icon"
