@@ -2,6 +2,7 @@ export const GAMES = [
   {
     image: "/game-covers/bg3.jpg",
     title: "Baldur's Gate 3",
+    url: "bg3",
     genres: ["RPG", "Fantasy", "Adventure"],
     price: 2451,
     video: "https://www.youtube.com/embed/1T22wNvoNiU",
@@ -12,6 +13,7 @@ export const GAMES = [
   {
     image: "/game-covers/Call_Of_Duty_MW3_2023.jpg",
     title: "Call of Duty Modern Warfare 3",
+    url: "codmw3",
     genres: ["Action", "FPS", "Shooter"],
     price: 6797,
     video: "https://www.youtube.com/embed/mHDEDDrGYvo",
@@ -22,6 +24,7 @@ export const GAMES = [
   {
     image: "/game-covers/cyberpunk2077ue.jpg",
     title: "Cyberpunk 2077: Ultimate Edition",
+    url: "cyberpunk2077ue",
     genres: ["Cyberpunk", "RPG", "FPS", "Braindance"],
     price: 2718,
     video: "https://www.youtube.com/embed/8X2kIfS6fb8",
@@ -32,6 +35,7 @@ export const GAMES = [
   {
     image: "/game-covers/elden-ring.jpg",
     title: "Elden Ring",
+    url: "eldenring",
     genres: ["RPG", "Dark Fantasy", "Open World"],
     price: 3707,
     video: "https://www.youtube.com/embed/AKXiKBnzpBQ",
@@ -42,6 +46,7 @@ export const GAMES = [
   {
     image: "/game-covers/EU4.jpg",
     title: "Europa Universalis IV",
+    url: "EU4",
     genres: ["Grand Strategy", "Historical", "Simulation"],
     price: 2719,
     video: "https://www.youtube.com/embed/1hgr0fYbHmY",
@@ -52,6 +57,7 @@ export const GAMES = [
   {
     image: "/game-covers/Total-War-Warhammer-III.jpg",
     title: "Total War: WARHAMMER III",
+    url: "tww3",
     genres: ["Strategy", "Tactical", "Dark Fantasy"],
     price: 5149,
     video: "https://www.youtube.com/embed/HAr7yUlM0Po",
